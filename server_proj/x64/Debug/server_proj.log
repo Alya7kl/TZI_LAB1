@@ -1,0 +1,15 @@
+﻿  server.cpp
+D:\Users\Admin\Desktop\TZI\server_proj\PipeServer.h(70,58): warning C4244: '=': conversion from 'ULONG_PTR' to 'DWORD', possible loss of data
+  (compiling source file 'server.cpp')
+      D:\Users\Admin\Desktop\TZI\server_proj\PipeServer.h(70,58):
+      the template instantiation context (the oldest one first) is
+          D:\Users\Admin\Desktop\TZI\server_proj\server.cpp(93,30):
+          see reference to class template instantiation 'CPipeServer<AuthMessage>' being compiled
+          D:\Users\Admin\Desktop\TZI\server_proj\PipeServer.h(68,10):
+          while compiling class template member function 'void CPipeServer<AuthMessage>::ClearOVERL(void)'
+              D:\Users\Admin\Desktop\TZI\server_proj\PipeServer.h(141,23):
+              see the first reference to 'CPipeServer<AuthMessage>::ClearOVERL' in 'CPipeServer<AuthMessage>::WaitClient'
+              D:\Users\Admin\Desktop\TZI\server_proj\server.cpp(222,49):
+              see the first reference to 'CPipeServer<AuthMessage>::WaitClient' in 'main'
+  
+  server_proj.vcxproj -> D:\Users\Admin\Desktop\TZI\client_proj\x64\Debug\server_proj.exe
