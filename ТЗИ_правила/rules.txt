@@ -1,0 +1,13 @@
+# Сценарій правил. Шлях до файлів зі словами вказується відносно цього файлу.
+WORDLIST passwords_common.txt
+WORDLIST passwords_personal.txt
+LOWER
+UPPER
+CAPITALIZE
+REVERSE
+APPEND 1
+APPEND 123
+APPEND 1234
+PREPEND 1
+LEET
+LAYOUT
