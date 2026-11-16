@@ -1,12 +1,16 @@
 .vs/
-Debug/
-Release/
-x64/
-x86/
+**/.vs/
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
 
 *.exe
 *.pdb
 *.obj
 *.ilk
-*.suo
+*.idb
+*.tlog/
+*.recipe
+*.log
 *.user
